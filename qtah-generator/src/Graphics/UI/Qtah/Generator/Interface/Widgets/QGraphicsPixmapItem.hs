@@ -27,13 +27,15 @@ import Foreign.Hoppy.Generator.Spec (
   ident,
   includeStd,
   makeClass,
+  mkMethod,
   mkMethod',
   mkConstMethod,
   mkCtor,
   )
 import Foreign.Hoppy.Generator.Types (voidT, objT)
 import Graphics.UI.Qtah.Generator.Interface.Core.Types (qreal)
-import Graphics.UI.Qtah.Generator.Interface.Core.QRectF (c_QRectF)
+import Graphics.UI.Qtah.Generator.Interface.Gui.QPixmap (c_QPixmap)
+import Graphics.UI.Qtah.Generator.Interface.Core.QPointF (c_QPointF)
 import Graphics.UI.Qtah.Generator.Module (AModule (AQtModule), makeQtModule)
 import Graphics.UI.Qtah.Generator.Interface.Widgets.QGraphicsItem
   (c_QGraphicsItem)
@@ -55,5 +57,5 @@ c_QGraphicsPixmapItem =
   , mkConstMethod "offset" [] $ objT c_QPointF
   , mkConstMethod "pixmap" [] $ objT c_QPixmap
   , mkMethod' "setOffset" "setOffset" [qreal, qreal] voidT
-  , mkMethod' "setPixmap" [c_QPixmap] voidT
+  , mkMethod "setPixmap" [objT c_QPixmap] voidT
   ]
