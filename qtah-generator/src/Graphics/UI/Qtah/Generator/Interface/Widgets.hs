@@ -45,6 +45,7 @@ import qualified Graphics.UI.Qtah.Generator.Interface.Widgets.QGraphicsEllipseIt
 import qualified Graphics.UI.Qtah.Generator.Interface.Widgets.QGraphicsItem as QGraphicsItem
 import qualified Graphics.UI.Qtah.Generator.Interface.Widgets.QGraphicsPolygonItem as QGraphicsPolygonItem
 import qualified Graphics.UI.Qtah.Generator.Interface.Widgets.QGraphicsRectItem as QGraphicsRectItem
+import qualified Graphics.UI.Qtah.Generator.Interface.Widgets.QGraphicsPixmapItem as QGraphicsPixmapItem
 import qualified Graphics.UI.Qtah.Generator.Interface.Widgets.QGraphicsScene as QGraphicsScene
 import qualified Graphics.UI.Qtah.Generator.Interface.Widgets.QGraphicsSceneEvent as QGraphicsSceneEvent
 import qualified Graphics.UI.Qtah.Generator.Interface.Widgets.QGraphicsSceneMouseEvent as QGraphicsSceneMouseEvent
@@ -123,6 +124,7 @@ modules =
   , QGraphicsItem.aModule
   , QGraphicsPolygonItem.aModule
   , QGraphicsRectItem.aModule
+  , QGraphicsPixmapItem.aModule
   , QGraphicsScene.aModule
   , QGraphicsSceneEvent.aModule
   , QGraphicsSceneMouseEvent.aModule

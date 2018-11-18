@@ -161,6 +161,7 @@ library
     , Graphics.UI.Qtah.Widgets.QGraphicsItem
     , Graphics.UI.Qtah.Widgets.QGraphicsPolygonItem
     , Graphics.UI.Qtah.Widgets.QGraphicsRectItem
+    , Graphics.UI.Qtah.Widgets.QGraphicsPixmapItem
     , Graphics.UI.Qtah.Widgets.QGraphicsScene
     , Graphics.UI.Qtah.Widgets.QGraphicsSceneEvent
     , Graphics.UI.Qtah.Widgets.QGraphicsSceneMouseEvent
@@ -334,6 +335,7 @@ library
     , Graphics.UI.Qtah.Generated.Widgets.QGraphicsItem
     , Graphics.UI.Qtah.Generated.Widgets.QGraphicsPolygonItem
     , Graphics.UI.Qtah.Generated.Widgets.QGraphicsRectItem
+    , Graphics.UI.Qtah.Generated.Widgets.QGraphicsPixmapItem
     , Graphics.UI.Qtah.Generated.Widgets.QGraphicsScene
     , Graphics.UI.Qtah.Generated.Widgets.QGraphicsSceneEvent
     , Graphics.UI.Qtah.Generated.Widgets.QGraphicsSceneMouseEvent
